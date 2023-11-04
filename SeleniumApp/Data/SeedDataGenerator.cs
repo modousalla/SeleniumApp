@@ -58,11 +58,11 @@ namespace SeleniumApp.Data
                    },
                    new Etudiant
                    {
-                       Nom = "Brown",
-                       Prenom = "Michael",
-                       Email = "test@example.com",
-                       Sexe = "Homme",
-                       DateNais = DateTime.Now.AddYears(-20)
+                        Nom = "Gagnon",
+                        Prenom = "Sylvie",
+                        Email = "sylvie@example.com",
+                        Sexe = "Femme",
+                        DateNais = DateTime.Now.AddYears(-24)
                    }
                );
                 context.SaveChanges();
