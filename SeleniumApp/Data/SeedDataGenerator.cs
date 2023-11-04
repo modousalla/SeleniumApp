@@ -16,47 +16,55 @@ namespace SeleniumApp.Data
                 }
 
                 context.Etudiants.AddRange(
-                     new Etudiant
-                     {
-                         Nom = "John",
-                         Prenom = "Doe",
-                         Email = "john@example.com",
-                         Sexe = "Homme",
-                         DateNais = DateTime.Now.AddYears(-25)
-                     },
                     new Etudiant
                     {
-                        Nom = "Alice",
-                        Prenom = "Johnson",
-                        Email = "alice@example.com",
-                        Sexe = "Femme",
-                        DateNais = DateTime.Now.AddYears(-23)
-                    },
-                    new Etudiant
-                    {
-                        Nom = "Bob",
-                        Prenom = "Smith",
-                        Email = "bob@example.com",
+                        Nom = "Doe",
+                        Prenom = "John",
+                        Email = "john@example.com",
                         Sexe = "Homme",
-                        DateNais = DateTime.Now.AddYears(-22)
+                        DateNais = DateTime.Now.AddYears(-25)
                     },
-                    new Etudiant
-                    {
-                        Nom = "Eva",
-                        Prenom = "Williams",
-                        Email = "eva@example.com",
-                        Sexe = "Femme",
-                        DateNais = DateTime.Now.AddYears(-21)
-                    },
-                    new Etudiant
-                    {
-                        Nom = "Michael",
-                        Prenom = "Brown",
-                        Email = "michael@example.com",
-                        Sexe = "Homme",
-                        DateNais = DateTime.Now.AddYears(-20)
-                    }
-                );
+                   new Etudiant
+                   {
+                       Nom = "Johnson",
+                       Prenom = "Alice",
+                       Email = "alice@example.com",
+                       Sexe = "Femme",
+                       DateNais = DateTime.Now.AddYears(-23)
+                   },
+                   new Etudiant
+                   {
+                       Nom = "Smith",
+                       Prenom = "Bob",
+                       Email = "bob@example.com",
+                       Sexe = "Homme",
+                       DateNais = DateTime.Now.AddYears(-22)
+                   },
+                   new Etudiant
+                   {
+                       Nom = "Williams",
+                       Prenom = "Eva",
+                       Email = "eva@example.com",
+                       Sexe = "Femme",
+                       DateNais = DateTime.Now.AddYears(-21)
+                   },
+                   new Etudiant
+                   {
+                       Nom = "Brown",
+                       Prenom = "Michael",
+                       Email = "michael@example.com",
+                       Sexe = "Homme",
+                       DateNais = DateTime.Now.AddYears(-20)
+                   },
+                   new Etudiant
+                   {
+                       Nom = "Brown",
+                       Prenom = "Michael",
+                       Email = "test@example.com",
+                       Sexe = "Homme",
+                       DateNais = DateTime.Now.AddYears(-20)
+                   }
+               );
                 context.SaveChanges();
 
             }
