@@ -55,7 +55,7 @@ namespace SeleniumApp.Data
                        Email = "michael@example.com",
                        Sexe = "Homme",
                        DateNais = DateTime.Now.AddYears(-20)
-                   }/*,
+                   },
                     new Etudiant
                     {
                         Nom = "Gagnon",
@@ -63,7 +63,7 @@ namespace SeleniumApp.Data
                         Email = "sylvie@example.com",
                         Sexe = "Femme",
                         DateNais = DateTime.Now.AddYears(-24)
-                    }*/
+                    }
                );
                 context.SaveChanges();
 
